@@ -1,13 +1,13 @@
 {
   "name": "josenk-clienttags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jonathan Senkerik",
   "summary": "/etc/clienttags for a puppet managed self-service environment.",
   "license": "Apache-2.0",
   "source": "https://github.com/josenk/clienttags",
   "project_page": "https://github.com/josenk/clienttags",
   "issues_url": "https://github.com/josenk/clienttags/issues",
-  "dependencies": ""
+  "dependencies": [],
   "operatingsystem_support": [
     {
       "operatingsystem": "RedHat",

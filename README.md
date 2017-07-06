@@ -79,3 +79,4 @@ able to specify any source for the default /etc/clienttags.
 ## Release Notes.
 
 v1.0.0  This is the initial release.
+v1.0.1  Fix formatting and removed stdlib dependancy
