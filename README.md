@@ -67,7 +67,7 @@ class { 'do_stuff_by_clienttags':
 
 ## Limitations
 
-Currently this is for Linux only.
+Currently this is for Linux/Unix type OS's only.
 
 Be careful of your REGEX!  
 

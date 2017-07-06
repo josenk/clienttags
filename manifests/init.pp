@@ -30,12 +30,15 @@
 #
 class clienttags {
 
-  if $::kernel == "Linux" {
-
-    file { "/etc/clienttags": ensure => 'present',
-        owner  => root, group  => wheel, mode   => '664', replace => 'false',
-        source => "puppet:///modules/clienttags/clienttags",
+    if $::kernel == 'Linux' {
+        file { '/etc/clienttags':
+            ensure  => 'present',
+            owner   => root,
+            group   => wheel,
+            mode    => '0664',
+            replace => false,
+            source  => 'puppet:///modules/clienttags/clienttags',
+        }
     }
-  }
 }
 
